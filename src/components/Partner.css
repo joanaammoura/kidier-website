@@ -1,7 +1,6 @@
 .partner {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-end;
   margin: 10px;
   padding: 20px;
@@ -14,8 +13,10 @@
 
 .partner > img {
   max-height: 200px;
+  max-width: 138px;
   width: 100%;
   object-fit: contain;
+  margin-right: 10px;
   margin-bottom: 15px;
 }
 
@@ -30,6 +31,6 @@
 }
 
 .partner__address {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
 }

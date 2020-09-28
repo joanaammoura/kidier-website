@@ -1,6 +1,7 @@
 import React from "react";
 import { darkBlue, pink } from "../resources/colors";
 import "./Header.css";
+import Login from "./Login";
 
 function Header() {
   return (
@@ -21,10 +22,13 @@ function Header() {
         <div className="header__option">
           <p>Preços</p>
         </div>
-        <div className="header__nav2 header__option">
-          <p>Torne-se Parceiro</p>
-        </div>
       </div>
+
+      <div className="header__nav header__becomePartner">
+        <p>Torne-se Parceiro</p>
+      </div>
+
+      <Login />
     </div>
   );
 }
