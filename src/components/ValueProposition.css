@@ -1,5 +1,6 @@
 .valueProposition {
   background-color: rgba(242, 187, 28, 0.2);
+  margin-bottom: 40px;
 }
 
 .valueProposition__row {
@@ -8,6 +9,10 @@
   align-items: center;
   margin-left: 80px;
   margin-right: 80px;
+}
+
+.valueProposition__titles {
+  padding-top: 30px;
 }
 
 .valueProposition__row > h2 {

@@ -4,7 +4,7 @@ import "./ValueProposition.css";
 function ValueProposition() {
   return (
     <div className="valueProposition">
-      <div className="valueProposition__row">
+      <div className="valueProposition__row valueProposition__titles">
         <h3>Simplifica</h3>
         <h3>Organiza</h3>
         <h3>Poupa</h3>
