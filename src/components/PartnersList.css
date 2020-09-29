@@ -1,0 +1,9 @@
+.partnersList {
+  display: flex;
+  z-index: 1;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  max-width: 500px;
+}

@@ -10,7 +10,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.heading {
+  font-weight: 700;
+}
+.subheading {
+  font-weight: 300;
+}
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  /*  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace; */
+  font-family: "Montserrat", sans-serif;
 }
