@@ -1,5 +1,5 @@
 import React from "react";
-import Banner from "../components/Banner";
+import Hero from "../components/Hero";
 import ValueProposition from "../components/ValueProposition";
 import ActivitiesExplorer from "../components/ActivitiesExplorer";
 import HowItWorks from "../components/HowItWorks";
@@ -10,7 +10,7 @@ import "./Home.css";
 function Home() {
   return (
     <div className="home">
-      <Banner />
+      <Hero />
       <ValueProposition />
       <ActivitiesExplorer />
       <HowItWorks />

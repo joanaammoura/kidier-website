@@ -1,5 +1,5 @@
 import React from "react";
-import { darkBlue, pink } from "../resources/colors";
+import { darkBlue } from "../resources/colors";
 import "./Header.css";
 import Login from "./Login";
 
