@@ -1,7 +1,7 @@
 import React from "react";
 import { darkBlue } from "../resources/colors";
 import "./Header.css";
-import Login from "./Login";
+import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 
 function Header() {
   return (
@@ -12,7 +12,7 @@ function Header() {
         alt="kidier logo"
       />
 
-      <div className="header__nav">
+      <div className="header__nav header__center">
         <div className="header__option">
           <p>Actividades</p>
         </div>
@@ -24,11 +24,15 @@ function Header() {
         </div>
       </div>
 
-      <div className="header__nav header__becomePartner">
-        <p>Torne-se Parceiro</p>
+      <div className="header__nav header__right">
+        <div className="header__partners">
+          <p>Torne-se Parceiro</p>
+        </div>
+        <div className="header__login">
+          <p className="header__loginOption">Entrar</p>
+          <AccountCircleIcon  className="header__loginIcon" />
+        </div>
       </div>
-
-      <Login />
     </div>
   );
 }

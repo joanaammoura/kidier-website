@@ -1,39 +1,44 @@
 .hero {
-  display: flex;
-  orientation: column;
-  margin: 0px 0px 40px 80px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 45% 55%;
 }
 
 .hero__image {
-  height: 50%;
-  width: 60%;
-  z-index: -1;
+  width: 100%;
+  margin: 10px 0px 0px 0px;
 }
 
 .hero__textContainer {
   display: flex;
   flex-direction: column;
-  width: 40%;
-  margin-top: 70px;
+  margin: 140px 0px 20px 70px;
+  font-size: 45px;
 }
 
 .hero__title {
-  font-size: 5vw;
   font-weight: 700;
+  margin: 0px;
 }
 
 .hero__animatedTitle {
-  font-size: 5vw;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 70px;
   font-weight: 700;
+  margin: 0px;
 }
 
 .hero__subtitle {
-  font-size: 2vw;
+  font-size: 0.4em;
   font-weight: 400;
+  line-height: 25px;
+  margin: 14px 0px 20px 0px;
 }
 
 .hero__buttonsContainer {
   display: flex;
+  max-width: 500px;
 }
 
 .hero__button {
@@ -42,7 +47,7 @@
   width: 100%;
   text-align: center;
   background-color: #ff5a5f;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   color: #fff;
   border: none;
