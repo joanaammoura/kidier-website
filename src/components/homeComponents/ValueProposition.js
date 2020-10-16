@@ -5,10 +5,13 @@ function ValueProposition() {
   return (
     <div className="valueProposition">
       <div />
-      <img src={require('../resources/images/phone.svg')} alt="smartphone" />
-      <img src={require('../resources/images/calendar.svg')} alt="calendário" />
-      <img src={require('../resources/images/money.svg')} alt="dinheiro" />
-      <img src={require('../resources/images/rocket.svg')} alt="universo" />
+      <img src={require('../../resources/images/phone.svg')} alt="smartphone" />
+      <img
+        src={require('../../resources/images/calendar.svg')}
+        alt="calendário"
+      />
+      <img src={require('../../resources/images/money.svg')} alt="dinheiro" />
+      <img src={require('../../resources/images/rocket.svg')} alt="universo" />
       <div />
       <div />
       <h3>Simplifica</h3>

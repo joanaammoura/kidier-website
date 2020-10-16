@@ -1,14 +1,13 @@
-import React from "react";
-import { darkBlue } from "../resources/colors";
-import "./Header.css";
+import React from 'react';
+import './Header.css';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 
 function Header() {
   return (
-    <div className="header" style={{ color: `${darkBlue}` }}>
+    <div className="header">
       <img
         className="header__logo"
-        src={require("../resources/images/logo_large.svg")}
+        src={require('../../resources/images/logo_large.svg')}
         alt="kidier logo"
       />
 
@@ -30,7 +29,7 @@ function Header() {
         </div>
         <div className="header__login">
           <p className="header__loginOption">Entrar</p>
-          <AccountCircleIcon  className="header__loginIcon" />
+          <AccountCircleIcon className="header__loginIcon" />
         </div>
       </div>
     </div>

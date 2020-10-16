@@ -1,11 +1,12 @@
 import React from 'react';
-import Hero from '../components/Hero';
-import ValueProposition from '../components/ValueProposition';
-import ActivitiesExplorer from '../components/ActivitiesExplorer';
-import HowItWorks from '../components/HowItWorks';
-import Pricing from '../components/Pricing';
-import FAQs from '../components/FAQs';
-import Footer from '../components/Footer';
+import Hero from '../components/homeComponents/Hero';
+import ValueProposition from '../components/homeComponents/ValueProposition';
+import ActivitiesExplorer from '../components/activitiesExplorerComponents/ActivitiesExplorer';
+import HowItWorks from '../components/homeComponents/HowItWorks';
+import Pricing from '../components/homeComponents/Pricing';
+import FAQs from '../components/homeComponents/FAQs';
+import BecomePartner from '../components/homeComponents/BecomePartner';
+import Footer from '../components/homeComponents/Footer';
 import './Home.css';
 
 function Home() {
@@ -17,7 +18,7 @@ function Home() {
       <HowItWorks />
       <Pricing />
       <FAQs />
-      <div className="home__questions">Torne-se nosso Parceiro</div>
+      <BecomePartner />
       <div className="home__questions">Fique a par das novidades</div>
       <Footer />
     </div>
