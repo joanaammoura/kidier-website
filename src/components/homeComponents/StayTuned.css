@@ -12,7 +12,8 @@
   object-fit: contain;
   justify-content: flex-start;
   width: 50vw;
-  margin: -40px 0px -40px 50px;
+  height: 300px;
+  margin: 60px 0px 60px 50px;
 }
 
 .stayTuned__container {
