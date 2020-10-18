@@ -4,11 +4,6 @@ import './BecomePartner.css';
 function BecomePartner() {
   return (
     <div className="becomePartner">
-      <img
-        className="becomePartner__image"
-        src={require('../../resources/images/partners_img.svg')}
-        alt="partners activities"
-      />
       <div className="becomePartner__container">
         <h1>Torne-se nosso Parceiro</h1>
         <p>
@@ -20,6 +15,11 @@ function BecomePartner() {
           <p className="becomePartner__button">Descobrir Mais</p>
         </div>
       </div>
+      <img
+        className="becomePartner__image"
+        src={require('../../resources/images/partners_img.svg')}
+        alt="partners activities"
+      />
     </div>
   );
 }

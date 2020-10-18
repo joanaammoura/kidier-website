@@ -6,6 +6,7 @@ import HowItWorks from '../components/homeComponents/HowItWorks';
 import Pricing from '../components/homeComponents/Pricing';
 import FAQs from '../components/homeComponents/FAQs';
 import BecomePartner from '../components/homeComponents/BecomePartner';
+import StayTuned from '../components/homeComponents/StayTuned';
 import Footer from '../components/homeComponents/Footer';
 import './Home.css';
 
@@ -19,7 +20,7 @@ function Home() {
       <Pricing />
       <FAQs />
       <BecomePartner />
-      <div className="home__questions">Fique a par das novidades</div>
+      <StayTuned />
       <Footer />
     </div>
   );

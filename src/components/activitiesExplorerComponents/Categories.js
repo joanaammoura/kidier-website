@@ -1,15 +1,14 @@
-import React from "react";
-import "./Categories.css";
+import React from 'react';
+import './Categories.css';
 
 function Categories() {
   return (
     <div className="categories">
-      <h1 className="categories__title">Explora actividades em Lisboa</h1>
       <div className="categories__buttons">
         <button className="categories__button">
           <img
             className="categories__buttonImage"
-            src={require("../../resources/images/icon_sports_tennis.svg")}
+            src={require('../../resources/images/icon_sports_tennis.svg')}
             alt="raquete de ténis"
           />
           Desportos
@@ -17,7 +16,7 @@ function Categories() {
         <button className="categories__button">
           <img
             className="categories__buttonImage"
-            src={require("../../resources/images/icon_color_lens.svg")}
+            src={require('../../resources/images/icon_color_lens.svg')}
             alt="palete de cores"
           />
           Aulas e Workshops
@@ -25,7 +24,7 @@ function Categories() {
         <button className="categories__button">
           <img
             className="categories__buttonImage"
-            src={require("../../resources/images/icon_celebration.svg")}
+            src={require('../../resources/images/icon_celebration.svg')}
             alt="celebração"
           />
           Eventos

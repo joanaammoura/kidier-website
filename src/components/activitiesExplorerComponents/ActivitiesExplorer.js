@@ -10,6 +10,7 @@ import Map from './Map';
 function ActivitiesExplorer() {
   return (
     <div className="activitiesExplorer">
+      <h1 className="categories__title">Explore actividades em Lisboa</h1>
       <Categories />
       <Subcategories />
       <Search />

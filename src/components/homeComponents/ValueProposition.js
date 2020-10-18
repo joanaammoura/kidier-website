@@ -14,21 +14,21 @@ function ValueProposition() {
       <img src={require('../../resources/images/rocket.svg')} alt="universo" />
       <div />
       <div />
-      <h3>Simplifica</h3>
-      <h3>Organiza</h3>
-      <h3>Poupa</h3>
-      <h3>Experiencia</h3>
+      <h3>Simplifique</h3>
+      <h3>Organize</h3>
+      <h3>Poupe</h3>
+      <h3>Experienciem</h3>
       <div />
       <div />
       <p>
         Todas as actividades estão aqui, é só filtrar por idade, data ou local
       </p>
       <p>
-        Escolhe os melhores horários para conciliar com o calendário da vossa
+        Escolha os melhores horários para conciliar com o calendário da sua
         família
       </p>
       <p>
-        Nós somos flexíveis, podes pausar e cancelar mensalmente, se precisares
+        Nós somos flexíveis, pode pausar e cancelar mensalmente, se precisar
       </p>
       <p>
         Experimentem as actividades que quiserem, um mundo de magia está à vossa

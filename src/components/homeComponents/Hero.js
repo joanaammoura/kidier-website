@@ -23,7 +23,7 @@ function Hero() {
         </h2>
         <div className="hero__buttonsContainer">
           <button className="hero__button">Explorar Actividades</button>
-          <button className="hero__button">Inscreve-te agora!</button>
+          <button className="hero__button">Inscreva-se agora!</button>
         </div>
       </div>
 
